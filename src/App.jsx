@@ -5,6 +5,11 @@ import Home from "./pages/Home";
 import Products from "./pages/Products";
 import Services from "./pages/Services";
 import About from "./pages/About";
+import Contact from "./pages/Contact";
+import Register from "./pages/Register";
+import Login from "./pages/Login";
+import Dashboard from "./pages/Dashboard";
+import Admin from "./pages/Admin";
 function App() {
 
   return (
@@ -22,6 +27,13 @@ function App() {
         <Route path="/services" element={<Services />} />
 
         <Route path="/about" element={<About />} />
+
+        <Route path="/contact" element={<Contact />} />
+
+        <Route path="/register" element={<Register />} />
+        <Route path="/login" element={<Login />} />
+        <Route path="/dashboard" element={<Dashboard />} />
+        <Route path="/admin" element={<Admin />} />
       </Routes>
 
     </BrowserRouter>
